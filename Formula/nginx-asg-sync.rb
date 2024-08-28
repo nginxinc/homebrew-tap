@@ -12,7 +12,7 @@ class NginxAsgSync < Formula
   on_intel do
     if Hardware::CPU.is_64_bit?
       url "https://github.com/nginxinc/nginx-asg-sync/releases/download/v1.0.0/nginx-asg-sync_1.0.0_linux_amd64.tar.gz"
-      sha256 "6f4f1156214cef256cf6c8632956dad10129e5f9cfd4b1a4b283ebd87858f059"
+      sha256 "e9d6dcab1a9f8d173a70cdd1dcbed60088464d0efcf996f38c5b43275cc0cb36"
 
       def install
         bin.install "nginx-asg-sync"
@@ -22,7 +22,7 @@ class NginxAsgSync < Formula
   on_arm do
     if Hardware::CPU.is_64_bit?
       url "https://github.com/nginxinc/nginx-asg-sync/releases/download/v1.0.0/nginx-asg-sync_1.0.0_linux_arm64.tar.gz"
-      sha256 "a939c978b8d4a8133c22511ae49cd097ad286da93c3c1875650bd71bf18041e3"
+      sha256 "5f3f2471abaa08de35bd61dea56cc90b3a856b3b9ccaa8d9b0390bf4da407545"
 
       def install
         bin.install "nginx-asg-sync"
